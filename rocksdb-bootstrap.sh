@@ -10,4 +10,5 @@ make rocksdbjava
 make jtest || exit
 make install
 cd ..
+rm -fr rocksdb-rocksdb-4.11.2
 

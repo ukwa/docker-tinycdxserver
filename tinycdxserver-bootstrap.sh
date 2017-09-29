@@ -9,4 +9,9 @@ export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8
 
 mvn package || exit
 
-cp target/tinycdxserver*.jar outbackcdx.jar
+cp target/tinycdxserver*.jar ../outbackcdx.jar
+
+rm -fr outbackcdx
+
+rm -fr ~/.m2
+
