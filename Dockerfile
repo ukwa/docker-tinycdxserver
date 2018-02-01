@@ -1,6 +1,6 @@
 FROM maven:3-jdk-8
 
-RUN git clone https://github.com/nla/outbackcdx.git && \
+RUN git clone https://github.com/ukwa/outbackcdx.git && \
     cd outbackcdx && \
     git checkout ukwa-production && \
     export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8 && \
