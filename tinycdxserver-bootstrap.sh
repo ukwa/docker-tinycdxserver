@@ -2,8 +2,9 @@ apt-get install -y ca-certificates-java
 
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
-git clone https://github.com/nla/outbackcdx.git
+git clone https://github.com/ukwa/outbackcdx.git
 cd outbackcdx
+git checkout ukwa-production
 
 export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8
 
